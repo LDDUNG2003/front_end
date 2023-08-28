@@ -89,11 +89,11 @@
 .content--title::before {
     content: '';
     background-color: var(--primary-color);
-    width: 120px;
+    width: 210px;
     height: 9px;
     position: absolute;
     top: 70%;
-    right: 45%;
+    right: 40%;
 }
 
 .content__featured {
