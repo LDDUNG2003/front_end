@@ -1,0 +1,18 @@
+.main {}
+
+.header {
+    width: 100%;
+    max-width: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navBar {}
+
+.logo {}
+
+.navBar__list {}
+
+.navBar__list-item {}
+
+.navBar__list--link {}

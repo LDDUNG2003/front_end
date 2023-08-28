@@ -1,0 +1,44 @@
+.content {
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+}
+
+.content__banner {
+    width: 100%;
+    position: relative;
+}
+
+.content--list-image {
+    width: 100%;
+    max-width: 1300px;
+    margin: auto;
+}
+
+.content--image {
+    width: 100%;
+}
+
+.banner--content {
+    position: absolute;
+    top: 10%;
+    left: 15%;
+}
+
+.banner--content-text-title {
+    text-transform: uppercase;
+    font-family: 800;
+    font-family: "gotham-utral";
+    font-size: 25px;
+}
+
+.banner--content-text {
+    font-size: 18px;
+    color: var(--text-color);
+    width: 420px;
+}
+
+.banner--button {
+    width: 200px;
+    padding: 20px 0px;
+}

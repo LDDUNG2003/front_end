@@ -1,0 +1,37 @@
+.main {
+    width: 100%;
+}
+
+.header {
+    padding: 10px 0px;
+    margin: auto;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.navBar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 80px;
+}
+
+.navBar__list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.navBar__list-item {
+    margin: 0 10px;
+}
+
+.navBar__list--link {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: var(--text-color);
+    text-decoration: none;
+}

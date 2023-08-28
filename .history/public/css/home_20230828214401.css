@@ -1,0 +1,22 @@
+.main {
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+    max-width: 100px;
+}
+
+.navBar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.logo {}
+
+.navBar__list {}
+
+.navBar__list-item {}
+
+.navBar__list--link {}

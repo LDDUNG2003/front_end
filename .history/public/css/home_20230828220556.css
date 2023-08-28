@@ -1,0 +1,20 @@
+.content {
+    width: 100%;
+}
+
+.content__banner {}
+
+.content--list-image {}
+
+.content--image {}
+
+.banner--content {}
+
+.banner--content-title {}
+
+.banner--content-text {
+    text-transform: uppercase;
+    font-family: 800;
+    font-family: "gotham-utral";
+    font-size: 46.43pt;
+}
