@@ -129,8 +129,6 @@
 
 .about--background img {
     width: 100%;
-    filter: grayscale(100%) contrast(100%);
-    ;
 }
 
 .about__us-bag {
@@ -138,8 +136,7 @@
     top: 0px;
     width: 100%;
     max-width: 1200px;
-    left: 10%;
-    color: #ffffff;
+    margin: auto;
 }
 
 .about__content {
@@ -148,7 +145,6 @@
 
 .about--block {
     display: flex;
-    justify-content: space-between;
 }
 
 .about--content {
@@ -177,35 +173,14 @@
 
 .about--img {}
 
-.choose__choose {
-    width: 100%;
-}
+.choose__choose {}
 
-.choose--list {
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
+.choose--list {}
 
-.choose--item {
-    align-items: center;
-    margin: 5px 0px;
-    width: 48%;
-    display: flex;
-    background-color: #ffffff;
-}
+.choose--item {}
 
-.choose--content-title {
-    color: var(--primary-color);
-    font-size: 23px;
-    text-transform: uppercase;
-    font-weight: 800;
-}
+.choose-image {}
 
-.choose--text {
-    font-weight: 700;
-    font-size: 16px;
-    padding: 5px 0px;
-    color: var(--text-color);
-}
+.choose-contain {}
+
+.choose--content-title {}

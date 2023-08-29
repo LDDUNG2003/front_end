@@ -196,6 +196,8 @@
     background-color: #ffffff;
 }
 
+.choose-contain {}
+
 .choose--content-title {
     color: var(--primary-color);
     font-size: 23px;

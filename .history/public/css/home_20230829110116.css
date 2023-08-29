@@ -129,7 +129,7 @@
 
 .about--background img {
     width: 100%;
-    filter: grayscale(100%) contrast(100%);
+    filter: grayscale(30%) contrast(100%);
     ;
 }
 
@@ -196,6 +196,8 @@
     background-color: #ffffff;
 }
 
+.choose-contain {}
+
 .choose--content-title {
     color: var(--primary-color);
     font-size: 23px;
@@ -207,5 +209,4 @@
     font-weight: 700;
     font-size: 16px;
     padding: 5px 0px;
-    color: var(--text-color);
 }

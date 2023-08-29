@@ -129,8 +129,6 @@
 
 .about--background img {
     width: 100%;
-    filter: grayscale(100%) contrast(100%);
-    ;
 }
 
 .about__us-bag {
@@ -139,7 +137,6 @@
     width: 100%;
     max-width: 1200px;
     left: 10%;
-    color: #ffffff;
 }
 
 .about__content {
@@ -196,6 +193,8 @@
     background-color: #ffffff;
 }
 
+.choose-contain {}
+
 .choose--content-title {
     color: var(--primary-color);
     font-size: 23px;
@@ -204,8 +203,5 @@
 }
 
 .choose--text {
-    font-weight: 700;
     font-size: 16px;
-    padding: 5px 0px;
-    color: var(--text-color);
 }
