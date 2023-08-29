@@ -1,0 +1,27 @@
+.news--contet {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.news--content-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+.news--content-item {
+    width: 33%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.news--item-img {
+    width: 100%;
+}
+
+.news--item-contain {}
+
+.news--contain-heading {}
+
+.news--contain-text {}
