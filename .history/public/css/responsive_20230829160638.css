@@ -1,0 +1,32 @@
+@media (min-width:767px) {
+    #mobileMenu {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    #mobileMenu {
+        display: block;
+    }
+    .logo--block {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .navBar {
+        display: block;
+    }
+    .navBar__list {
+        display: none;
+        width: 100%;
+    }
+    .content__focut {
+        position: static;
+    }
+    .focut--item {
+        width: 50%;
+    }
+    .content__banner {
+        display: none;
+    }
+}

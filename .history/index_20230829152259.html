@@ -17,10 +17,9 @@
 <div class="main">
     <div class="header">
         <div class="navBar">
-            <div class="logo--block">
-                <img src="./public/img/logo.png" alt="logo" class="logo">
-                <button class="menu-mobile" id="mobileMenu"><i class="fas fa-bars" style="color: #fff;" ></i></button>
-            </div>
+            <img src="./public/img/logo.png" alt="logo" class="logo">
+            <!-- creater mobile menu icon button -->
+            <button class="menu-mobile" id="mobileMenu"><i class="fas fa-bars" ></i></button>
             <ul class="navBar__list">
                 <li class="navBar__list-item"><a href="" class="navBar__list--link">trang chủ</a></li>
                 <li class="navBar__list-item">
@@ -91,7 +90,7 @@
         </div>
         <div class="content__featured">
             <h2 class="content--title">SẢN PHẨM NỔI BẬT</h2>
-            <ul class="featured--list">
+            <ul class="featured--list" data-slick='{"slidesToShow": 4, "slidesToScroll": 4}'>
                 <li class="featured--item">
                     <img src="./public/img/featured/giuong-ngu.png" alt="" class="featured--img">
                     <div class="featured--content">
@@ -248,7 +247,7 @@
         <div class="news">
             <h2 class="content--title">tin tức</h2>
             <div class="news--contain">
-                <div class="news--contain--item mobile-display">
+                <div class="news--contain--item">
                     <img class="impotant--grd" src="./public/img/news/tintuc-1.jpg" alt="">
                     <div class="news-contain-impotant">
                         <h3 class="news--impotant-heading">Cách chọn sofa cho phòng khách nhà bạn thêm phần sang trọng</h3>
@@ -369,40 +368,12 @@
             </ul>
         </div>
     </div>
-    <script src="./public/js/index.js"></script>
     <script type="text/javascript " src="//code.jquery.com/jquery-1.11.0.min.js "></script>
     <script type="text/javascript " src="//code.jquery.com/jquery-migrate-1.2.1.min.js "></script>
     <script type="text/javascript " src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js "></script>
     <script>
         $(document).ready(function() {
-            $('.featured--list').slick({
-                dots: true,
-                infinite: false,
-                speed: 300,
-                slidesToShow: 4,
-                slidesToScroll: 4,
-                responsive: [{
-                    breakpoint: 1024,
-                    settings: {
-                        slidesToShow: 3,
-                        slidesToScroll: 3,
-                        infinite: true,
-                        dots: true
-                    }
-                }, {
-                    breakpoint: 600,
-                    settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 2
-                    }
-                }, {
-                    breakpoint: 480,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1
-                    }
-                }]
-            });
+            $('.featured--list').slick();
         });
     </script>
     </body>

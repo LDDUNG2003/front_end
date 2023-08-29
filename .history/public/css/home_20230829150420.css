@@ -115,7 +115,6 @@
 
 .featured--img {
     width: 80%;
-    margin: auto;
 }
 
 .about__us {
@@ -177,14 +176,9 @@
     display: flex;
 }
 
-.about--item {
-    width: 23%;
-    padding: 3px;
-}
+.about--item {}
 
-.about--img {
-    width: 100%;
-}
+.about--img {}
 
 .choose__choose {
     width: 100%;
@@ -285,34 +279,20 @@
     display: flex;
     list-style: none;
     flex-wrap: wrap;
-    width: 100%;
-    /* setup max width  */
-    max-width: 1200px;
-    margin: auto;
 }
 
-.partner--item {
-    /* setup width calc 100/7 */
-    width: calc(100% / 7);
-    /* width: calc(100%/7%); */
-}
+.partner--item {}
 
 .content--contact {
     width: 100%;
     margin: auto;
-    max-width: 1500px;
-    position: relative;
+    max-width: 1200px;
 }
 
 .contact--contain {}
 
-.contact-bg {
-    width: 100%;
-}
+.contact-bg {}
 
 .contact-contain {}
 
-.contact-image {
-    position: absolute;
-    display: none;
-}
+.contact-image {}

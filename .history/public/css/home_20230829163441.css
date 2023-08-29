@@ -179,12 +179,9 @@
 
 .about--item {
     width: 23%;
-    padding: 3px;
 }
 
-.about--img {
-    width: 100%;
-}
+.about--img {}
 
 .choose__choose {
     width: 100%;

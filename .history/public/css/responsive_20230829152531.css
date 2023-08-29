@@ -1,0 +1,18 @@
+@media (min-width:767px) {
+    #mobileMenu {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    #mobileMenu {
+        display: block;
+    }
+    .navBar__list {
+        display: block;
+        width: 100%;
+    }
+    .navBar__list li {
+        display: block;
+    }
+}

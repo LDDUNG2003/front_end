@@ -91,10 +91,6 @@
     width: 15px;
 }
 
-.footer {
-    background-color: black;
-}
-
 .footer__lable {
     max-width: 1200px;
     margin: auto;
@@ -103,6 +99,7 @@
     justify-content: space-around;
     color: #fff;
     justify-content: space-between;
+    background-color: black;
 }
 
 .footer--list {

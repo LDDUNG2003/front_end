@@ -1,0 +1,24 @@
+@media (min-width:767px) {
+    #mobileMenu {
+        display: none;
+    }
+}
+
+@media (max-width: 767px) {
+    #mobileMenu {
+        display: block;
+    }
+    .logo--block {
+        width: 100%;
+    }
+    .navBar {
+        display: block;
+    }
+    .navBar__list {
+        display: block;
+        width: 100%;
+    }
+    .navBar__list {
+        display: block;
+    }
+}
