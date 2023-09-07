@@ -114,7 +114,6 @@
     .featured--list {
         width: 100%;
         margin: 10px;
-        flex-wrap: wrap;
     }
     .featured--item {
         width: 100%;

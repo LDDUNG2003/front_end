@@ -108,15 +108,4 @@
     .news--content-list {
         margin: 0px 20px;
     }
-    .news--content-item {
-        width: 100%;
-    }
-    .featured--list {
-        width: 100%;
-        margin: 10px;
-        flex-wrap: wrap;
-    }
-    .featured--item {
-        width: 100%;
-    }
 }

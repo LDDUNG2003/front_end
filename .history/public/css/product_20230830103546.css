@@ -1,0 +1,18 @@
+.content__featured-slider {
+    width: 100%;
+    max-width: 1600px;
+    height: 560px;
+    overflow: hidden;
+}
+
+.slider--list {
+    width: 100%;
+}
+
+.slider--item {
+    width: 100%;
+}
+
+.slider--image {
+    width: 100%;
+}
